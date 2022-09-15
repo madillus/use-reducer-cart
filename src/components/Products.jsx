@@ -30,7 +30,7 @@ const Products = ({ state, dispatch }) => {
           <img
             src={prod.thumbnail}
             alt={prod.title}
-            style={{ height: 350, objectFit: 'cover' }}
+            style={{ height: 200, objectFit: 'cover' }}
           />
           <div style={{ display: 'flex', justifyContent: 'space-between' }}>
             <span>{prod.title}</span>
